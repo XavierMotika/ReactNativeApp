@@ -1,7 +1,7 @@
 import { View, Pressable, GestureResponderEvent} from 'react-native';
 import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 
-import styles from './Styles';
+import styles from './Style';
 
 interface Props {
   onPress : (event: GestureResponderEvent) => void
